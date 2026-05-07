@@ -4,9 +4,9 @@ import requests
 import os
 
 # Configuración
-TOKEN = 'MTUwMTgwOTgxMTUwMTc0ODIzNA.GnSV-i.eXx0roM-3Ym10TZWEYMVqrOgLUMYYtQ9PtOEZE'
+TOKEN = os.getenv('TOKEN')
 CHANNEL_ID = 1501803615029821451  # ID del canal de Discord donde avisará
-YT_API_KEY = 'AIzaSyBFbIsKDGIqi4iVacdUh85GgzDmKrPrIKg'
+YT_API_KEY = os.getenv('YT_API_KEY')
 YT_CHANNEL_ID = 'UCBi2l8X8-5UyWbP4ESoHltg'
 
 
